@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .tag {
+        padding-right: 5px;
+        padding-left: 5px;
+        border: solid;
+      }
+
+      .tag-regular {
+        border-radius: 20px;
+      }
+
+      .tag-high {
+        background: Tomato;
+      }
+
+      .tag-mid {
+        background: Yellow;
+      }
+
+      .tag-low {
+        background: LimeGreen;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="tags">
+      <span class="tag-Tomat">Recomendation</span>
+      <span class="tag-mid tag-regular">Travel</span>
+      <span class="tag-low tag-regular">Food</span>
+      <span class="tag-mid tag-regular">Hawaii</span>
+      <span class="tag-mid tag-regular">Beach</span>
+    </div>
+        <!-- tag class applied correctly: Wrong answer 
+tag-regular class applied correctly: Correct answer 
+Respective color class applied correctly: Wrong answer --->
+  
+  </body>
+</html>
